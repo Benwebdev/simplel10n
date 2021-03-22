@@ -1,5 +1,7 @@
 A really simple l10n class 
 
+npm install @benline/simplel10n
+
 ```javascript
 
 //You would have some keys and values
