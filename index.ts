@@ -1,16 +1,11 @@
 import { l10n } from './modules/l10n';
 
-const ttt = new l10n();
-const ddd = new l10n();
-// console.log(ttt.log());
-ttt.setLanguage('fr')
-ddd.setLanguage('en');
-console.log(ttt._translation);
-console.log(ddd._translation);
-console.log(ttt.getTranslationStr('HELLO'))
+const _l10n = new l10n();
 
-// export default localization;
-// export { getTranslationStr, l10n, setLanguage, setManualL10n };
+console.log(_l10n.setLanguage('en'));
+
+console.log(_l10n._translation);
+console.log(_l10n.getTranslationStr('HELLO'))
 
 export {
     l10n
